@@ -7,7 +7,7 @@
                         http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 
 
-    <context:component-scan base-package="com.mavenweb01.Controladores" />
+    <context:component-scan base-package="com.pubilaweb.mavenWeb" />
     <context:annotation-config />
     
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
