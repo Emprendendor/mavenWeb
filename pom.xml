@@ -27,7 +27,15 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    
+<!--   me funciona sin esta dependencia   
+    <dependency>
+    <groupId>javax</groupId>
+    <artifactId>javaee-web-api</artifactId>
+    <version>7.0</version>
+</dependency>
+
+-->
+
     
     
     		<dependency>
