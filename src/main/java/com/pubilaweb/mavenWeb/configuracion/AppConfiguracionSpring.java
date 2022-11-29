@@ -26,8 +26,11 @@ public class AppConfiguracionSpring {
  * 
  * 
  */
+	
+	
 	   @Bean
 	    public InternalResourceViewResolver getInternalResourceViewResolver() {
+		    System.out.println("   Implementacion del ViewResolver  por clase java  views y .jsp  ");
 	        InternalResourceViewResolver resolver = new InternalResourceViewResolver();
 	        resolver.setPrefix("/WEB-INF/views/");
 	        resolver.setSuffix(".jsp");
